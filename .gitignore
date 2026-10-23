@@ -1,0 +1,14 @@
+# Build output and local config
+build/
+.gradle/
+local.properties
+.idea/
+*.iml
+
+# Signing keys: never commit
+*.jks
+*.keystore
+keystore-password.txt
+
+# Release APKs go to GitHub Releases, not the repo
+dist/
